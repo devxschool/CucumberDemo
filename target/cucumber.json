@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 144631,
+              "duration": 152739,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 60304,
+              "duration": 63396,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 132396001,
+              "duration": 125071124,
               "status": "passed"
             },
             "line": 5,
@@ -52,7 +52,7 @@
           },
           {
             "result": {
-              "duration": 410496,
+              "duration": 147582,
               "status": "passed"
             },
             "line": 6,
@@ -74,7 +74,7 @@
           },
           {
             "result": {
-              "duration": 228480,
+              "duration": 281035,
               "status": "passed"
             },
             "line": 7,
@@ -96,7 +96,7 @@
           },
           {
             "result": {
-              "duration": 419995,
+              "duration": 196879,
               "status": "passed"
             },
             "line": 8,
@@ -118,7 +118,7 @@
           },
           {
             "result": {
-              "duration": 317978,
+              "duration": 224394,
               "status": "passed"
             },
             "line": 9,
@@ -144,7 +144,7 @@
         "before": [
           {
             "result": {
-              "duration": 79364,
+              "duration": 76838,
               "status": "passed"
             },
             "match": {
@@ -159,7 +159,7 @@
         "after": [
           {
             "result": {
-              "duration": 43805,
+              "duration": 56277,
               "status": "passed"
             },
             "match": {
@@ -172,7 +172,7 @@
         "steps": [
           {
             "result": {
-              "duration": 292806,
+              "duration": 288379,
               "status": "passed"
             },
             "line": 14,
@@ -190,7 +190,7 @@
           },
           {
             "result": {
-              "duration": 178140,
+              "duration": 234628,
               "status": "passed"
             },
             "line": 15,
@@ -212,7 +212,7 @@
           },
           {
             "result": {
-              "duration": 181435,
+              "duration": 200829,
               "status": "passed"
             },
             "line": 16,
@@ -234,7 +234,7 @@
           },
           {
             "result": {
-              "duration": 198862,
+              "duration": 212733,
               "status": "passed"
             },
             "line": 17,
@@ -256,7 +256,7 @@
           },
           {
             "result": {
-              "duration": 2025918,
+              "duration": 1375070,
               "status": "passed"
             },
             "line": 18,
@@ -278,7 +278,7 @@
         "before": [
           {
             "result": {
-              "duration": 60525,
+              "duration": 120411,
               "status": "passed"
             },
             "match": {
@@ -293,7 +293,7 @@
         "after": [
           {
             "result": {
-              "duration": 64041,
+              "duration": 47303,
               "status": "passed"
             },
             "match": {
@@ -306,7 +306,7 @@
         "steps": [
           {
             "result": {
-              "duration": 171615,
+              "duration": 145516,
               "status": "passed"
             },
             "line": 22,
@@ -324,7 +324,7 @@
           },
           {
             "result": {
-              "duration": 200160,
+              "duration": 162433,
               "status": "passed"
             },
             "line": 23,
@@ -346,7 +346,7 @@
           },
           {
             "result": {
-              "duration": 233303,
+              "duration": 171537,
               "status": "passed"
             },
             "line": 24,
@@ -368,7 +368,7 @@
           },
           {
             "result": {
-              "duration": 186647,
+              "duration": 192118,
               "status": "passed"
             },
             "line": 25,
@@ -390,7 +390,7 @@
           },
           {
             "result": {
-              "duration": 101891,
+              "duration": 67251,
               "status": "passed"
             },
             "line": 26,
@@ -428,7 +428,7 @@
         "before": [
           {
             "result": {
-              "duration": 53299,
+              "duration": 57298,
               "status": "passed"
             },
             "match": {
@@ -443,7 +443,7 @@
         "after": [
           {
             "result": {
-              "duration": 37723,
+              "duration": 40560,
               "status": "passed"
             },
             "match": {
@@ -456,7 +456,7 @@
         "steps": [
           {
             "result": {
-              "duration": 643885,
+              "duration": 747103,
               "status": "passed"
             },
             "line": 5,
@@ -474,7 +474,7 @@
           },
           {
             "result": {
-              "duration": 947838,
+              "duration": 979091,
               "status": "passed"
             },
             "line": 6,
@@ -504,7 +504,7 @@
           },
           {
             "result": {
-              "duration": 399618,
+              "duration": 273010,
               "status": "passed"
             },
             "line": 7,
@@ -534,7 +534,7 @@
           },
           {
             "result": {
-              "duration": 266739,
+              "duration": 257854,
               "status": "passed"
             },
             "line": 8,
@@ -564,8 +564,9 @@
           },
           {
             "result": {
-              "duration": 2887085,
-              "status": "passed"
+              "duration": 2384330,
+              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.fail(Assert.java:95)\n\tat step_definitions.Zelle_steps.user_with_account_number_should_have_$_in_balance(Zelle_steps.java:57)\n\tat ✽.Then User with account number 11111 should have $1900 in balance(features/ZelleTransfer.feature:9)\n",
+              "status": "failed"
             },
             "line": 9,
             "name": "User with account number 11111 should have $1900 in balance",
@@ -586,8 +587,7 @@
           },
           {
             "result": {
-              "duration": 233319,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 10,
             "name": "User with account number 123456 should have $1100 in balance",
@@ -634,7 +634,7 @@
         "before": [
           {
             "result": {
-              "duration": 54436,
+              "duration": 48714,
               "status": "passed"
             },
             "match": {
@@ -645,11 +645,11 @@
         "line": 7,
         "name": "we give a scenario name",
         "description": "",
-        "id": "featuree-is-a-big-functionality-of-an-application.;we-give-a-scenario-name",
+        "id": "is-a-big-functionality-of-an-application.;we-give-a-scenario-name",
         "after": [
           {
             "result": {
-              "duration": 315987,
+              "duration": 34952,
               "status": "passed"
             },
             "match": {
@@ -662,7 +662,7 @@
         "steps": [
           {
             "result": {
-              "duration": 150591,
+              "duration": 101738,
               "status": "passed"
             },
             "line": 8,
@@ -674,7 +674,7 @@
           },
           {
             "result": {
-              "duration": 52783,
+              "duration": 285464,
               "status": "passed"
             },
             "line": 9,
@@ -686,7 +686,7 @@
           },
           {
             "result": {
-              "duration": 99875,
+              "duration": 85985,
               "status": "passed"
             },
             "line": 10,
@@ -712,7 +712,7 @@
         "before": [
           {
             "result": {
-              "duration": 106695,
+              "duration": 50554,
               "status": "passed"
             },
             "match": {
@@ -723,11 +723,11 @@
         "line": 16,
         "name": "Dry Run Test",
         "description": "",
-        "id": "featuree-is-a-big-functionality-of-an-application.;dry-run-test",
+        "id": "is-a-big-functionality-of-an-application.;dry-run-test",
         "after": [
           {
             "result": {
-              "duration": 29070,
+              "duration": 33675,
               "status": "passed"
             },
             "match": {
@@ -740,7 +740,7 @@
         "steps": [
           {
             "result": {
-              "duration": 61939,
+              "duration": 55775,
               "status": "passed"
             },
             "line": 17,
@@ -752,7 +752,7 @@
           },
           {
             "result": {
-              "duration": 30635,
+              "duration": 23085,
               "status": "passed"
             },
             "line": 18,
@@ -764,7 +764,7 @@
           },
           {
             "result": {
-              "duration": 25791,
+              "duration": 23932,
               "status": "passed"
             },
             "line": 19,
@@ -777,9 +777,9 @@
         ]
       }
     ],
-    "name": "featuree is a big functionality of an application.",
+    "name": "is a big functionality of an application.",
     "description": "Here we would write the feature name to be tested\nwe create one feature file per feature",
-    "id": "featuree-is-a-big-functionality-of-an-application.",
+    "id": "is-a-big-functionality-of-an-application.",
     "keyword": "Feature",
     "uri": "features/cucumberdemo.feature",
     "tags": [

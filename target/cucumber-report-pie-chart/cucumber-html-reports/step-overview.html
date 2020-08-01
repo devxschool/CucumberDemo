@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/reporting.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber-JVM Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-JVM Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="step-overview.html">Steps</a></li>
+        <li role="presentation" ><a href="failures-overview.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="build-info">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>Zelle Cucumber(POM File)</td>
+                          <td>1</td>
+                        <td>31 Jul 2020, 21:28</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="report-lead" class="container-fluid>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Steps Statistics</h2>
+              <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+          </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+              <table id="tablesorter" class="stats-table table-hover">
+
+          <thead>
+            <tr class="header">
+              <th>Implementation</th>
+              <th>Occurrences</th>
+              <th>Duration</th>
+              <th>Average</th>
+              <th>Ratio</th>
+            </tr>
+          </thead>
+
+          <tbody>
+                          <tr>
+                <td class="location">CucumberDemo2Steps.user_should_see_message(String)</td>
+                <td>2</td>
+                <td class="duration" data-value="1006116">001ms</td>
+                <td class="duration" data-value="503058">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">CucumberDemo2Steps.user_with_account_number_deposited_$(int,int)</td>
+                <td>3</td>
+                <td class="duration" data-value="498201">000ms</td>
+                <td class="duration" data-value="166067">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">CucumberDemo2Steps.user_with_account_number_is_registered(int)</td>
+                <td>3</td>
+                <td class="duration" data-value="101741763">101ms</td>
+                <td class="duration" data-value="33913921">033ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">CucumberDemo2Steps.user_with_account_number_transfers_$(int,int)</td>
+                <td>4</td>
+                <td class="duration" data-value="641819">000ms</td>
+                <td class="duration" data-value="160454">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Cucumberdemo_steps.cucumber_user_runs_the_cucumber_runner_class()</td>
+                <td>1</td>
+                <td class="duration" data-value="17455">000ms</td>
+                <td class="duration" data-value="17455">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Cucumberdemo_steps.cucumber_user_set_dry_run_to_true()</td>
+                <td>1</td>
+                <td class="duration" data-value="46952">000ms</td>
+                <td class="duration" data-value="46952">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Cucumberdemo_steps.cucumber_user_should_see_step_implemention_snippets_for_missing_step_defs_in_console()</td>
+                <td>1</td>
+                <td class="duration" data-value="20047">000ms</td>
+                <td class="duration" data-value="20047">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Cucumberdemo_steps.user_enters_spoon_in_search_box()</td>
+                <td>1</td>
+                <td class="duration" data-value="47855">000ms</td>
+                <td class="duration" data-value="47855">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Cucumberdemo_steps.user_is_moving_cursor_to_search_box()</td>
+                <td>1</td>
+                <td class="duration" data-value="120374">000ms</td>
+                <td class="duration" data-value="120374">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Cucumberdemo_steps.user_should_see_only_spoons_in_the_result()</td>
+                <td>1</td>
+                <td class="duration" data-value="52084">000ms</td>
+                <td class="duration" data-value="52084">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Hooks.afterEachScenarioHook()</td>
+                <td>6</td>
+                <td class="duration" data-value="221747">000ms</td>
+                <td class="duration" data-value="36957">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Hooks.beforeEachScenarioHook()</td>
+                <td>6</td>
+                <td class="duration" data-value="367695">000ms</td>
+                <td class="duration" data-value="61282">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Zelle_steps.bank_exists(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="1223865">001ms</td>
+                <td class="duration" data-value="1223865">001ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Zelle_steps.user_with_account_number_and_email_and_a_balance_of_$_is_registered_in(int,String,int,String)</td>
+                <td>2</td>
+                <td class="duration" data-value="1139831">001ms</td>
+                <td class="duration" data-value="569915">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Zelle_steps.user_with_account_number_should_have_$_in_balance(int,int)</td>
+                <td>5</td>
+                <td class="duration" data-value="2360969">002ms</td>
+                <td class="duration" data-value="472193">000ms</td>
+                <td class="failed">60.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Zelle_steps.user_with_account_number_transfers_$_to_account_with_email_in(int,int,String,String)</td>
+                <td>1</td>
+                <td class="duration" data-value="147762">000ms</td>
+                <td class="duration" data-value="147762">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                      </tbody>
+
+          <tfoot class="total">
+            <tr>
+              <td>16</td>
+              <td>39</td>
+              <td class="duration">109ms</td>
+              <td class="duration">002ms</td>
+              <td>Totals</td>
+            </tr>
+          </tfoot>
+
+        </table>
+          </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

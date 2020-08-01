@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 144631,
+  "duration": 152739,
   "status": "passed"
 });
 formatter.scenario({
@@ -59,7 +59,7 @@ formatter.match({
   "location": "CucumberDemo2Steps.user_with_account_number_is_registered(int)"
 });
 formatter.result({
-  "duration": 132396001,
+  "duration": 125071124,
   "status": "passed"
 });
 formatter.match({
@@ -76,7 +76,7 @@ formatter.match({
   "location": "CucumberDemo2Steps.user_with_account_number_deposited_$(int,int)"
 });
 formatter.result({
-  "duration": 410496,
+  "duration": 147582,
   "status": "passed"
 });
 formatter.match({
@@ -93,7 +93,7 @@ formatter.match({
   "location": "CucumberDemo2Steps.user_with_account_number_transfers_$(int,int)"
 });
 formatter.result({
-  "duration": 228480,
+  "duration": 281035,
   "status": "passed"
 });
 formatter.match({
@@ -110,7 +110,7 @@ formatter.match({
   "location": "CucumberDemo2Steps.user_with_account_number_transfers_$(int,int)"
 });
 formatter.result({
-  "duration": 419995,
+  "duration": 196879,
   "status": "passed"
 });
 formatter.match({
@@ -127,15 +127,15 @@ formatter.match({
   "location": "Zelle_steps.user_with_account_number_should_have_$_in_balance(int,int)"
 });
 formatter.result({
-  "duration": 317978,
+  "duration": 224394,
   "status": "passed"
 });
 formatter.after({
-  "duration": 60304,
+  "duration": 63396,
   "status": "passed"
 });
 formatter.before({
-  "duration": 79364,
+  "duration": 76838,
   "status": "passed"
 });
 formatter.scenario({
@@ -181,7 +181,7 @@ formatter.match({
   "location": "CucumberDemo2Steps.user_with_account_number_is_registered(int)"
 });
 formatter.result({
-  "duration": 292806,
+  "duration": 288379,
   "status": "passed"
 });
 formatter.match({
@@ -198,7 +198,7 @@ formatter.match({
   "location": "CucumberDemo2Steps.user_with_account_number_deposited_$(int,int)"
 });
 formatter.result({
-  "duration": 178140,
+  "duration": 234628,
   "status": "passed"
 });
 formatter.match({
@@ -215,7 +215,7 @@ formatter.match({
   "location": "CucumberDemo2Steps.user_with_account_number_transfers_$(int,int)"
 });
 formatter.result({
-  "duration": 181435,
+  "duration": 200829,
   "status": "passed"
 });
 formatter.match({
@@ -232,7 +232,7 @@ formatter.match({
   "location": "Zelle_steps.user_with_account_number_should_have_$_in_balance(int,int)"
 });
 formatter.result({
-  "duration": 198862,
+  "duration": 212733,
   "status": "passed"
 });
 formatter.match({
@@ -245,15 +245,15 @@ formatter.match({
   "location": "CucumberDemo2Steps.user_should_see_message(String)"
 });
 formatter.result({
-  "duration": 2025918,
+  "duration": 1375070,
   "status": "passed"
 });
 formatter.after({
-  "duration": 43805,
+  "duration": 56277,
   "status": "passed"
 });
 formatter.before({
-  "duration": 60525,
+  "duration": 120411,
   "status": "passed"
 });
 formatter.scenario({
@@ -299,7 +299,7 @@ formatter.match({
   "location": "CucumberDemo2Steps.user_with_account_number_is_registered(int)"
 });
 formatter.result({
-  "duration": 171615,
+  "duration": 145516,
   "status": "passed"
 });
 formatter.match({
@@ -316,7 +316,7 @@ formatter.match({
   "location": "CucumberDemo2Steps.user_with_account_number_deposited_$(int,int)"
 });
 formatter.result({
-  "duration": 200160,
+  "duration": 162433,
   "status": "passed"
 });
 formatter.match({
@@ -333,7 +333,7 @@ formatter.match({
   "location": "CucumberDemo2Steps.user_with_account_number_transfers_$(int,int)"
 });
 formatter.result({
-  "duration": 233303,
+  "duration": 171537,
   "status": "passed"
 });
 formatter.match({
@@ -350,7 +350,7 @@ formatter.match({
   "location": "Zelle_steps.user_with_account_number_should_have_$_in_balance(int,int)"
 });
 formatter.result({
-  "duration": 186647,
+  "duration": 192118,
   "status": "passed"
 });
 formatter.match({
@@ -363,11 +363,11 @@ formatter.match({
   "location": "CucumberDemo2Steps.user_should_see_message(String)"
 });
 formatter.result({
-  "duration": 101891,
+  "duration": 67251,
   "status": "passed"
 });
 formatter.after({
-  "duration": 64041,
+  "duration": 47303,
   "status": "passed"
 });
 formatter.uri("features/ZelleTransfer.feature");
@@ -379,7 +379,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 53299,
+  "duration": 57298,
   "status": "passed"
 });
 formatter.scenario({
@@ -436,7 +436,7 @@ formatter.match({
   "location": "Zelle_steps.bank_exists(String)"
 });
 formatter.result({
-  "duration": 643885,
+  "duration": 747103,
   "status": "passed"
 });
 formatter.match({
@@ -461,7 +461,7 @@ formatter.match({
   "location": "Zelle_steps.user_with_account_number_and_email_and_a_balance_of_$_is_registered_in(int,String,int,String)"
 });
 formatter.result({
-  "duration": 947838,
+  "duration": 979091,
   "status": "passed"
 });
 formatter.match({
@@ -486,7 +486,7 @@ formatter.match({
   "location": "Zelle_steps.user_with_account_number_and_email_and_a_balance_of_$_is_registered_in(int,String,int,String)"
 });
 formatter.result({
-  "duration": 399618,
+  "duration": 273010,
   "status": "passed"
 });
 formatter.match({
@@ -511,7 +511,7 @@ formatter.match({
   "location": "Zelle_steps.user_with_account_number_transfers_$_to_account_with_email_in(int,int,String,String)"
 });
 formatter.result({
-  "duration": 266739,
+  "duration": 257854,
   "status": "passed"
 });
 formatter.match({
@@ -528,8 +528,9 @@ formatter.match({
   "location": "Zelle_steps.user_with_account_number_should_have_$_in_balance(int,int)"
 });
 formatter.result({
-  "duration": 2887085,
-  "status": "passed"
+  "duration": 2384330,
+  "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.fail(Assert.java:95)\n\tat step_definitions.Zelle_steps.user_with_account_number_should_have_$_in_balance(Zelle_steps.java:57)\n\tat ✽.Then User with account number 11111 should have $1900 in balance(features/ZelleTransfer.feature:9)\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -545,19 +546,18 @@ formatter.match({
   "location": "Zelle_steps.user_with_account_number_should_have_$_in_balance(int,int)"
 });
 formatter.result({
-  "duration": 233319,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 37723,
+  "duration": 40560,
   "status": "passed"
 });
 formatter.uri("features/cucumberdemo.feature");
 formatter.feature({
   "line": 2,
-  "name": "featuree is a big functionality of an application.",
+  "name": "is a big functionality of an application.",
   "description": "Here we would write the feature name to be tested\nwe create one feature file per feature",
-  "id": "featuree-is-a-big-functionality-of-an-application.",
+  "id": "is-a-big-functionality-of-an-application.",
   "keyword": "Feature",
   "tags": [
     {
@@ -571,7 +571,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 54436,
+  "duration": 48714,
   "status": "passed"
 });
 formatter.scenario({
@@ -584,7 +584,7 @@ formatter.scenario({
   "line": 7,
   "name": "we give a scenario name",
   "description": "",
-  "id": "featuree-is-a-big-functionality-of-an-application.;we-give-a-scenario-name",
+  "id": "is-a-big-functionality-of-an-application.;we-give-a-scenario-name",
   "type": "scenario",
   "keyword": "Scenario"
 });
@@ -607,29 +607,29 @@ formatter.match({
   "location": "Cucumberdemo_steps.user_is_moving_cursor_to_search_box()"
 });
 formatter.result({
-  "duration": 150591,
+  "duration": 101738,
   "status": "passed"
 });
 formatter.match({
   "location": "Cucumberdemo_steps.user_enters_spoon_in_search_box()"
 });
 formatter.result({
-  "duration": 52783,
+  "duration": 285464,
   "status": "passed"
 });
 formatter.match({
   "location": "Cucumberdemo_steps.user_should_see_only_spoons_in_the_result()"
 });
 formatter.result({
-  "duration": 99875,
+  "duration": 85985,
   "status": "passed"
 });
 formatter.after({
-  "duration": 315987,
+  "duration": 34952,
   "status": "passed"
 });
 formatter.before({
-  "duration": 106695,
+  "duration": 50554,
   "status": "passed"
 });
 formatter.scenario({
@@ -646,7 +646,7 @@ formatter.scenario({
   "line": 16,
   "name": "Dry Run Test",
   "description": "",
-  "id": "featuree-is-a-big-functionality-of-an-application.;dry-run-test",
+  "id": "is-a-big-functionality-of-an-application.;dry-run-test",
   "type": "scenario",
   "keyword": "Scenario"
 });
@@ -669,25 +669,25 @@ formatter.match({
   "location": "Cucumberdemo_steps.cucumber_user_set_dry_run_to_true()"
 });
 formatter.result({
-  "duration": 61939,
+  "duration": 55775,
   "status": "passed"
 });
 formatter.match({
   "location": "Cucumberdemo_steps.cucumber_user_runs_the_cucumber_runner_class()"
 });
 formatter.result({
-  "duration": 30635,
+  "duration": 23085,
   "status": "passed"
 });
 formatter.match({
   "location": "Cucumberdemo_steps.cucumber_user_should_see_step_implemention_snippets_for_missing_step_defs_in_console()"
 });
 formatter.result({
-  "duration": 25791,
+  "duration": 23932,
   "status": "passed"
 });
 formatter.after({
-  "duration": 29070,
+  "duration": 33675,
   "status": "passed"
 });
 });
