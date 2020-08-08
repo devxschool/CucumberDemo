@@ -1,3 +1,4 @@
+runners/RegressionRunner.class
 domains/AccountDomain.class
 step_definitions/Hooks.class
 step_definitions/Cucumberdemo_steps.class

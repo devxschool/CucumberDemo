@@ -45,7 +45,7 @@ public class Cucumberdemo_steps {
 
     @Given("^Cucumber user set dry run to true$")
     public void cucumber_user_set_dry_run_to_true() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
+        System.out.println("Hllo");
 
     }
 

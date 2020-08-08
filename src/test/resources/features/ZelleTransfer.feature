@@ -1,3 +1,4 @@
+@Regression
 Feature: Transfer money with Zelle
 
   @Demo

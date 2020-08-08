@@ -1,3 +1,4 @@
+@Regression
 Feature: Scenario Outline feature
 
   #cucumber advantage is reusability

@@ -1,4 +1,4 @@
-@Smoke @Demo
+@Smoke @Demo @Regression
 Feature: is a big functionality of an application.
   Here we would write the feature name to be tested
   we create one feature file per feature

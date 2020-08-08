@@ -42,7 +42,7 @@ $(document).ready(function() {
 
 
   
-<title>Cucumber-JVM Reports  - Feature: is a big functionality of an application.</title>
+<title>Cucumber-JVM Reports  - Feature: Data Table Demo</title>
 
 </head>
 <body>
@@ -122,17 +122,17 @@ $(document).ready(function() {
 
         <tbody>
         <tr>
-          <td class="tagname">is a big functionality of an application.</td>
+          <td class="tagname">Data Table Demo</td>
                     <td  class="passed"    >2</td>
           <td >0</td>
           <td class="total">2</td>
-          <td      class="passed"    >6</td>
+          <td      class="passed"    >7</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
-          <td class="total">6</td>
-          <td class="duration" data-value="386947">000ms</td>
+          <td class="total">7</td>
+          <td class="duration" data-value="13886102">013ms</td>
           <td class="passed">Passed</td>
         </tr>
         </tbody>
@@ -150,21 +150,18 @@ $(document).ready(function() {
       <div class="feature">
         
 <div class="tags indention">
-       <a href="Smoke.html">@Smoke</a>
-       <a href="Demo.html">@Demo</a>
        <a href="Regression.html">@Regression</a>
   </div>
 
         
 <div class="brief passed">
   <span class="keyword indention">Feature</span>
-  <span class="name">is a big functionality of an application.</span>
+  <span class="name">Data Table Demo</span>
   
 
   </div>
 
-        <div class="description indention">Here we would write the feature name to be tested
-we create one feature file per feature</div>
+        <div class="description indention"></div>
 
         <div class="elements inner-level">
                       
@@ -179,7 +176,7 @@ we create one feature file per feature</div>
     
 <div class="brief passed">
   <span class="keyword indention">Scenario</span>
-  <span class="name">we give a scenario name</span>
+  <span class="name">Data Table Demo 1</span>
   
 
        <i class="chevron fa fa-fw"></i>
@@ -241,16 +238,57 @@ we create one feature file per feature</div>
           <div class="step">
         
 <div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">User is moving cursor to search box</span>
+  <span class="keyword indention">Given</span>
+  <span class="name">Bank "Bank Of America" exists</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">001ms</span>
 
   </div>
 
         
 
 
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the following user is created</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+                  <table class="step-arguments">
+                          <tr>
+                                  <td>accountNumber</td>
+                                  <td>email</td>
+                                  <td>balance</td>
+                                  <td>bankName</td>
+                              </tr>
+                          <tr>
+                                  <td>123456</td>
+                                  <td>testAccount@gmail.com</td>
+                                  <td>900</td>
+                                  <td>Bank Of America</td>
+                              </tr>
+                          <tr>
+                                  <td>11111</td>
+                                  <td>test2@gmail.com</td>
+                                  <td>500</td>
+                                  <td>Bank Of America</td>
+                              </tr>
+                      </table>
         
         
 
@@ -263,7 +301,7 @@ we create one feature file per feature</div>
         
 <div class="brief passed">
   <span class="keyword indention">When</span>
-  <span class="name">User enters spoon in search box</span>
+  <span class="name">the following transfers are made</span>
   
   <span class="lead-duration duration">000ms</span>
 
@@ -272,6 +310,20 @@ we create one feature file per feature</div>
         
 
 
+                  <table class="step-arguments">
+                          <tr>
+                                  <td>senderAccountNumber</td>
+                                  <td>amount</td>
+                                  <td>receiverEmail</td>
+                                  <td>receiverBankName</td>
+                              </tr>
+                          <tr>
+                                  <td>123456</td>
+                                  <td>1200</td>
+                                  <td>test2@gmail.com</td>
+                                  <td>Bank Of America</td>
+                              </tr>
+                      </table>
         
         
 
@@ -284,7 +336,7 @@ we create one feature file per feature</div>
         
 <div class="brief passed">
   <span class="keyword indention">Then</span>
-  <span class="name">User should see only spoons in the result</span>
+  <span class="name">the accounts should have the following balances</span>
   
   <span class="lead-duration duration">000ms</span>
 
@@ -293,6 +345,20 @@ we create one feature file per feature</div>
         
 
 
+                  <table class="step-arguments">
+                          <tr>
+                                  <td>accountNumber</td>
+                                  <td>balance</td>
+                              </tr>
+                          <tr>
+                                  <td>123456</td>
+                                  <td>900</td>
+                              </tr>
+                          <tr>
+                                  <td>11111</td>
+                                  <td>500</td>
+                              </tr>
+                      </table>
         
         
 
@@ -353,7 +419,7 @@ we create one feature file per feature</div>
     
 <div class="brief passed">
   <span class="keyword indention">Scenario</span>
-  <span class="name">Dry Run Test</span>
+  <span class="name">Data Tables with POJOs</span>
   
 
        <i class="chevron fa fa-fw"></i>
@@ -416,15 +482,35 @@ we create one feature file per feature</div>
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">Cucumber user set dry run to true</span>
+  <span class="name">the following account are created</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">009ms</span>
 
   </div>
 
         
 
 
+                  <table class="step-arguments">
+                          <tr>
+                                  <td>accountNumber</td>
+                                  <td>email</td>
+                                  <td>balance</td>
+                                  <td>bankName</td>
+                              </tr>
+                          <tr>
+                                  <td>123456</td>
+                                  <td>testAccount@gmail.com</td>
+                                  <td>900</td>
+                                  <td>Bank Of America</td>
+                              </tr>
+                          <tr>
+                                  <td>11111</td>
+                                  <td>test2@gmail.com</td>
+                                  <td>500</td>
+                                  <td>Bank Of America</td>
+                              </tr>
+                      </table>
         
         
 
@@ -437,15 +523,35 @@ we create one feature file per feature</div>
         
 <div class="brief passed">
   <span class="keyword indention">When</span>
-  <span class="name">Cucumber user runs the cucumber runner class</span>
+  <span class="name">the following trasfers are executed</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">001ms</span>
 
   </div>
 
         
 
 
+                  <table class="step-arguments">
+                          <tr>
+                                  <td>senderAccountNumber</td>
+                                  <td>amount</td>
+                                  <td>receiverEmail</td>
+                                  <td>receiverBankName</td>
+                              </tr>
+                          <tr>
+                                  <td>123456</td>
+                                  <td>1200</td>
+                                  <td>test2@gmail.com</td>
+                                  <td>Bank Of America</td>
+                              </tr>
+                          <tr>
+                                  <td>11111</td>
+                                  <td>500</td>
+                                  <td>ttestAccount@gmail.com</td>
+                                  <td>Bank Of America</td>
+                              </tr>
+                      </table>
         
         
 
@@ -458,7 +564,7 @@ we create one feature file per feature</div>
         
 <div class="brief passed">
   <span class="keyword indention">Then</span>
-  <span class="name">Cucumber user should see step implemention snippets for missing step defs in console</span>
+  <span class="name">the accounts should have the following balance amounts</span>
   
   <span class="lead-duration duration">000ms</span>
 
@@ -467,6 +573,20 @@ we create one feature file per feature</div>
         
 
 
+                  <table class="step-arguments">
+                          <tr>
+                                  <td>accountNumber</td>
+                                  <td>balance</td>
+                              </tr>
+                          <tr>
+                                  <td>123456</td>
+                                  <td>900</td>
+                              </tr>
+                          <tr>
+                                  <td>11111</td>
+                                  <td>500</td>
+                              </tr>
+                      </table>
         
         
 

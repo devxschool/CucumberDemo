@@ -51,9 +51,9 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                25,
-                1,
-                1,
+                57,
+                2,
+                2,
                 0,
                 0
             ],
@@ -94,7 +94,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 27) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 61) / 100;
                         return tooltipLabel + ': ' + tooltipData + ' (' + tooltipPercentage + '%)';
                     }
                 }
@@ -107,8 +107,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                5,
-                1
+                13,
+                2
             ],
             backgroundColor: [
                 "#00B000",
@@ -144,7 +144,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 6) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 15) / 100;
                         return tooltipLabel + ': ' + tooltipData + ' (' + tooltipPercentage + '%)';
                     }
                 }
@@ -157,7 +157,7 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                   2,
+                   5,
                    1
                ],
                backgroundColor: [
@@ -191,7 +191,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 3) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 6) / 100;
                         return tooltipLabel + ': ' + tooltipData + ' (' + tooltipPercentage + '%)';
                     }
                 }
@@ -233,7 +233,7 @@ $(document).ready(function() {
           <tr class="info">
             <td>Zelle Cucumber(POM File)</td>
                           <td>1</td>
-                        <td>31 Jul 2020, 21:28</td>
+                        <td>07 Aug 2020, 21:27</td>
           </tr>
         </tbody>
       </table>
@@ -323,6 +323,21 @@ $(document).ready(function() {
 
   <tbody>
           <tr>
+        <td class="tagname"><a href="features-DataTableDemo-feature.html">Data Table Demo</a></td>
+        
+        <td  class="passed"    >2</td>
+        <td >0</td>
+        <td class="total">2</td>
+        <td      class="passed"    >7</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">7</td>
+        <td class="duration" data-value="13886102">013ms</td>
+        <td class="passed">Passed</td>
+      </tr>
+          <tr>
         <td class="tagname"><a href="features-CucumberDemo2-feature.html">Demo Cucumber Scenarios Zelle</a></td>
         
         <td  class="passed"    >3</td>
@@ -334,23 +349,53 @@ $(document).ready(function() {
         <td >0</td>
         <td >0</td>
         <td class="total">15</td>
-        <td class="duration" data-value="104608793">104ms</td>
+        <td class="duration" data-value="2722674">002ms</td>
+        <td class="passed">Passed</td>
+      </tr>
+          <tr>
+        <td class="tagname"><a href="features-ScenaioOutline-feature.html">Scenario Outline feature</a></td>
+        
+        <td  class="passed"    >3</td>
+        <td >0</td>
+        <td class="total">3</td>
+        <td      class="passed"    >9</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">9</td>
+        <td class="duration" data-value="1342896">001ms</td>
         <td class="passed">Passed</td>
       </tr>
           <tr>
         <td class="tagname"><a href="features-ZelleTransfer-feature.html">Transfer money with Zelle</a></td>
         
         <td >0</td>
-        <td  class="failed"    >1</td>
-        <td class="total">1</td>
-        <td      class="passed"    >4</td>
-        <td      class="failed"    >1</td>
-        <td     class="skipped"   >1</td>
+        <td  class="failed"    >2</td>
+        <td class="total">2</td>
+        <td      class="passed"    >6</td>
+        <td      class="failed"    >2</td>
+        <td     class="skipped"   >2</td>
         <td >0</td>
         <td >0</td>
-        <td class="total">6</td>
-        <td class="duration" data-value="4151533">004ms</td>
+        <td class="total">10</td>
+        <td class="duration" data-value="4442206">004ms</td>
         <td class="failed">Failed</td>
+      </tr>
+          <tr>
+        <td class="tagname"><a href="features-BackgroundDemo-feature.html">background demo</a></td>
+        
+        <td  class="passed"    >3</td>
+        <td >0</td>
+        <td class="total">3</td>
+        <td      class="passed"    >14</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">14</td>
+        <td class="duration" data-value="675166101">675ms</td>
+        <td class="passed">Passed</td>
       </tr>
           <tr>
         <td class="tagname"><a href="features-cucumberdemo-feature.html">is a big functionality of an application.</a></td>
@@ -364,39 +409,39 @@ $(document).ready(function() {
         <td >0</td>
         <td >0</td>
         <td class="total">6</td>
-        <td class="duration" data-value="304767">000ms</td>
+        <td class="duration" data-value="386947">000ms</td>
         <td class="passed">Passed</td>
       </tr>
       </tbody>
 
   <tfoot class="total">
     <tr>
-      <td>3</td>
-            <td>5</td>
-      <td>1</td>
       <td>6</td>
-      <td>25</td>
-      <td>1</td>
-      <td>1</td>
+            <td>13</td>
+      <td>2</td>
+      <td>15</td>
+      <td>57</td>
+      <td>2</td>
+      <td>2</td>
       <td>0</td>
       <td>0</td>
-      <td>27</td>
-      <td class="duration">109ms</td>
+      <td>61</td>
+      <td class="duration">697ms</td>
       <td></td>
     </tr>
     <tr>
       <td></td>
-            <td>83.33%</td>
-      <td>16.67%</td>
+            <td>86.67%</td>
+      <td>13.33%</td>
       <td></td>
-      <td>92.59%</td>
-      <td>3.70%</td>
-      <td>3.70%</td>
+      <td>93.44%</td>
+      <td>3.28%</td>
+      <td>3.28%</td>
       <td>0.00%</td>
       <td>0.00%</td>
       <td></td>
       <td></td>
-      <td>16.67%</td>
+      <td>13.33%</td>
     </tr>
   </tfoot>
 </table>

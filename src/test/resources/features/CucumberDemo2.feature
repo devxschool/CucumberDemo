@@ -1,4 +1,4 @@
-@Smoke
+@Smoke @Regression
 Feature: Demo Cucumber Scenarios Zelle
 
   Scenario: Money Transfer with enough balance

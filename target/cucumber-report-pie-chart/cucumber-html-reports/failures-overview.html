@@ -77,7 +77,7 @@ $(document).ready(function() {
           <tr class="info">
             <td>Zelle Cucumber(POM File)</td>
                           <td>1</td>
-                        <td>31 Jul 2020, 21:28</td>
+                        <td>07 Aug 2020, 21:27</td>
           </tr>
         </tbody>
       </table>
@@ -180,7 +180,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">Bank "Bank Of America" exists</span>
   
-  <span class="lead-duration duration">001ms</span>
+  <span class="lead-duration duration">000ms</span>
 
   </div>
 
@@ -264,7 +264,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">User with account number 11111 should have $1900 in balance</span>
   
-  <span class="lead-duration duration">001ms</span>
+  <span class="lead-duration duration">002ms</span>
 
   </div>
 
@@ -280,7 +280,7 @@ $(document).ready(function() {
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.fail(Assert.java:95)
 	at step_definitions.Zelle_steps.user_with_account_number_should_have_$_in_balance(Zelle_steps.java:57)
-	at ✽.Then User with account number 11111 should have $1900 in balance(features/ZelleTransfer.feature:9)
+	at ✽.Then User with account number 11111 should have $1900 in balance(features/ZelleTransfer.feature:10)
 </pre>
       </div>
     </div>
@@ -335,6 +335,219 @@ $(document).ready(function() {
     </div>
 
     <div id="after-5" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">Hooks.afterEachScenarioHook()</span>
+                        
+  <span class="lead-duration duration">000ms</span>
+
+          </div>
+
+                      
+
+          
+          
+
+        </div>
+          </div>
+  </div>
+
+  </div>
+</div>
+
+                      
+<div class="element">
+      <div class="indention">
+      <a href="features-ZelleTransfer-feature.html">View Feature</a> <i>Transfer money with Zelle</i>
+    </div>
+  
+  
+<div class="tags indention">
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-6">
+    
+<div class="brief failed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Transfer money to unregistered account</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-6" class="collapse collapsable-details  in ">
+    
+  <div class="inner-level hooks-before">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-7">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-7" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">Hooks.beforeEachScenarioHook()</span>
+                        
+  <span class="lead-duration duration">000ms</span>
+
+          </div>
+
+                      
+
+          
+          
+
+        </div>
+          </div>
+  </div>
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-8">
+    
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-8" class="inner-level collapse collapsable-details  in ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">Bank "Bank Of America" exists</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">User with account number 123456 and email "testAccount@gmail.com" and a balance of $1000 is registered in "Bank Of America"</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief failed">
+  <span class="keyword indention">When</span>
+  <span class="name">User with account number 123456 transfers $500 to account with email "invalid@gmail.com" in "Bank Of America"</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-9">
+          <a>Error message</a>
+      </div>
+      <div id="msg-9" class="collapse collapsable-details">
+        <pre>java.lang.NullPointerException
+	at functionalities.Account.transferZelle(Account.java:34)
+	at step_definitions.Zelle_steps.user_with_account_number_transfers_$_to_account_with_email_in(Zelle_steps.java:45)
+	at ✽.When User with account number 123456 transfers $500 to account with email "invalid@gmail.com" in "Bank Of America"(features/ZelleTransfer.feature:32)
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">User with account number 123456 should have $1000 in balance</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+      </div>
+</div>
+
+
+    
+  <div class="inner-level hooks-after">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-10">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-10" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>

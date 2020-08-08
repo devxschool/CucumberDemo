@@ -1,3 +1,4 @@
+@Regression
 Feature: background demo
 
   Background:

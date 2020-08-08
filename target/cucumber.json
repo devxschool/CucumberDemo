@@ -3,10 +3,401 @@
     "line": 2,
     "elements": [
       {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 672001905,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on \"qa-chase.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa-chase.com",
+                  "offset": 12
+                }
+              ],
+              "location": "BackgroundSteps.user_is_on(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 320879,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is logged in as \"test@gmail.com\" \"test1Pass\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@gmail.com",
+                  "offset": 22
+                },
+                {
+                  "val": "test1Pass",
+                  "offset": 39
+                }
+              ],
+              "location": "BackgroundSteps.user_is_logged_in_as(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
         "before": [
           {
             "result": {
-              "duration": 152739,
+              "duration": 270973,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeEachScenarioHook()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Demo1",
+        "description": "",
+        "id": "background-demo;demo1",
+        "after": [
+          {
+            "result": {
+              "duration": 56176,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterEachScenarioHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 65381,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on transaction",
+            "match": {
+              "location": "BackgroundSteps.user_click_on_transaction()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47101,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should see all transaction",
+            "match": {
+              "location": "BackgroundSteps.user_should_see_all_transaction()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 317846,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on \"qa-chase.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa-chase.com",
+                  "offset": 12
+                }
+              ],
+              "location": "BackgroundSteps.user_is_on(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 285860,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is logged in as \"test@gmail.com\" \"test1Pass\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@gmail.com",
+                  "offset": 22
+                },
+                {
+                  "val": "test1Pass",
+                  "offset": 39
+                }
+              ],
+              "location": "BackgroundSteps.user_is_logged_in_as(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 77639,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeEachScenarioHook()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Demo2",
+        "description": "",
+        "id": "background-demo;demo2",
+        "after": [
+          {
+            "result": {
+              "duration": 44449,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterEachScenarioHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 745837,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user balance is 1000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000",
+                  "offset": 16
+                }
+              ],
+              "location": "BackgroundSteps.user_balance_is(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144879,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user deposits 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 14
+                }
+              ],
+              "location": "BackgroundSteps.user_deposits(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153105,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user balance should be 1200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1200",
+                  "offset": 23
+                }
+              ],
+              "location": "BackgroundSteps.user_balance_should_be(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 360316,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on \"qa-chase.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa-chase.com",
+                  "offset": 12
+                }
+              ],
+              "location": "BackgroundSteps.user_is_on(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 349919,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is logged in as \"test@gmail.com\" \"test1Pass\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@gmail.com",
+                  "offset": 22
+                },
+                {
+                  "val": "test1Pass",
+                  "offset": 39
+                }
+              ],
+              "location": "BackgroundSteps.user_is_logged_in_as(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 43366,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeEachScenarioHook()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Demo3",
+        "description": "",
+        "id": "background-demo;demo3",
+        "after": [
+          {
+            "result": {
+              "duration": 44986,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterEachScenarioHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 111459,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user balance is 1000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000",
+                  "offset": 16
+                }
+              ],
+              "location": "BackgroundSteps.user_balance_is(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142836,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user withdraws 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 15
+                }
+              ],
+              "location": "BackgroundSteps.user_withdraws(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 118778,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user balance should be 800",
+            "match": {
+              "arguments": [
+                {
+                  "val": "800",
+                  "offset": 23
+                }
+              ],
+              "location": "BackgroundSteps.user_balance_should_be(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "background demo",
+    "description": "",
+    "id": "background-demo",
+    "keyword": "Feature",
+    "uri": "features/BackgroundDemo.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 57005,
               "status": "passed"
             },
             "match": {
@@ -21,7 +412,7 @@
         "after": [
           {
             "result": {
-              "duration": 63396,
+              "duration": 48271,
               "status": "passed"
             },
             "match": {
@@ -34,7 +425,7 @@
         "steps": [
           {
             "result": {
-              "duration": 125071124,
+              "duration": 194113,
               "status": "passed"
             },
             "line": 5,
@@ -52,7 +443,7 @@
           },
           {
             "result": {
-              "duration": 147582,
+              "duration": 167969,
               "status": "passed"
             },
             "line": 6,
@@ -74,7 +465,7 @@
           },
           {
             "result": {
-              "duration": 281035,
+              "duration": 199151,
               "status": "passed"
             },
             "line": 7,
@@ -96,7 +487,7 @@
           },
           {
             "result": {
-              "duration": 196879,
+              "duration": 158561,
               "status": "passed"
             },
             "line": 8,
@@ -118,7 +509,7 @@
           },
           {
             "result": {
-              "duration": 224394,
+              "duration": 335753,
               "status": "passed"
             },
             "line": 9,
@@ -144,7 +535,7 @@
         "before": [
           {
             "result": {
-              "duration": 76838,
+              "duration": 48236,
               "status": "passed"
             },
             "match": {
@@ -159,7 +550,7 @@
         "after": [
           {
             "result": {
-              "duration": 56277,
+              "duration": 33691,
               "status": "passed"
             },
             "match": {
@@ -172,7 +563,7 @@
         "steps": [
           {
             "result": {
-              "duration": 288379,
+              "duration": 150551,
               "status": "passed"
             },
             "line": 14,
@@ -190,7 +581,7 @@
           },
           {
             "result": {
-              "duration": 234628,
+              "duration": 253489,
               "status": "passed"
             },
             "line": 15,
@@ -212,7 +603,7 @@
           },
           {
             "result": {
-              "duration": 200829,
+              "duration": 252914,
               "status": "passed"
             },
             "line": 16,
@@ -234,7 +625,7 @@
           },
           {
             "result": {
-              "duration": 212733,
+              "duration": 221854,
               "status": "passed"
             },
             "line": 17,
@@ -256,7 +647,7 @@
           },
           {
             "result": {
-              "duration": 1375070,
+              "duration": 119601,
               "status": "passed"
             },
             "line": 18,
@@ -278,7 +669,7 @@
         "before": [
           {
             "result": {
-              "duration": 120411,
+              "duration": 59914,
               "status": "passed"
             },
             "match": {
@@ -293,7 +684,7 @@
         "after": [
           {
             "result": {
-              "duration": 47303,
+              "duration": 45600,
               "status": "passed"
             },
             "match": {
@@ -306,7 +697,7 @@
         "steps": [
           {
             "result": {
-              "duration": 145516,
+              "duration": 153679,
               "status": "passed"
             },
             "line": 22,
@@ -324,7 +715,7 @@
           },
           {
             "result": {
-              "duration": 162433,
+              "duration": 127414,
               "status": "passed"
             },
             "line": 23,
@@ -346,7 +737,7 @@
           },
           {
             "result": {
-              "duration": 171537,
+              "duration": 155654,
               "status": "passed"
             },
             "line": 24,
@@ -368,7 +759,7 @@
           },
           {
             "result": {
-              "duration": 192118,
+              "duration": 146337,
               "status": "passed"
             },
             "line": 25,
@@ -390,7 +781,7 @@
           },
           {
             "result": {
-              "duration": 67251,
+              "duration": 85634,
               "status": "passed"
             },
             "line": 26,
@@ -418,17 +809,21 @@
       {
         "line": 1,
         "name": "@Smoke"
+      },
+      {
+        "line": 1,
+        "name": "@Regression"
       }
     ]
   },
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
         "before": [
           {
             "result": {
-              "duration": 57298,
+              "duration": 48328,
               "status": "passed"
             },
             "match": {
@@ -436,14 +831,14 @@
             }
           }
         ],
-        "line": 4,
-        "name": "Transfer money from account A to account B positive",
+        "line": 5,
+        "name": "Data Table Demo 1",
         "description": "",
-        "id": "transfer-money-with-zelle;transfer-money-from-account-a-to-account-b-positive",
+        "id": "data-table-demo;data-table-demo-1",
         "after": [
           {
             "result": {
-              "duration": 40560,
+              "duration": 26876,
               "status": "passed"
             },
             "match": {
@@ -456,10 +851,10 @@
         "steps": [
           {
             "result": {
-              "duration": 747103,
+              "duration": 1088602,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "Bank \"Bank Of America\" exists",
             "match": {
               "arguments": [
@@ -474,10 +869,749 @@
           },
           {
             "result": {
-              "duration": 979091,
+              "duration": 1693661,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the following user is created",
+            "match": {
+              "location": "Zelle_steps.the_following_user_is_created(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "accountNumber",
+                  "email",
+                  "balance",
+                  "bankName"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "123456",
+                  "testAccount@gmail.com",
+                  "900",
+                  "Bank Of America"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "11111",
+                  "test2@gmail.com",
+                  "500",
+                  "Bank Of America"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 217371,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "#List\u003cMap\u003cString, String\u003e\u003e users;"
+              },
+              {
+                "line": 12,
+                "value": "#users.size() -\u003e 2"
+              },
+              {
+                "line": 13,
+                "value": "#users.get(0).get(\"balance\") -\u003e 900"
+              },
+              {
+                "line": 14,
+                "value": "#users.get(1).get(\"email\")   -\u003e test2@gmail.com"
+              },
+              {
+                "line": 15,
+                "value": "#users.get(1).get(\"balance\") -\u003e 500"
+              }
+            ],
+            "line": 16,
+            "name": "the following transfers are made",
+            "match": {
+              "location": "Zelle_steps.the_following_transfers_are_made(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "senderAccountNumber",
+                  "amount",
+                  "receiverEmail",
+                  "receiverBankName"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "123456",
+                  "1200",
+                  "test2@gmail.com",
+                  "Bank Of America"
+                ],
+                "line": 18
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 189967,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the accounts should have the following balances",
+            "match": {
+              "location": "Zelle_steps.the_accounts_should_have_the_following_balances(String,String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "accountNumber",
+                  "balance"
+                ],
+                "line": 21
+              },
+              {
+                "cells": [
+                  "123456",
+                  "900"
+                ],
+                "line": 22
+              },
+              {
+                "cells": [
+                  "11111",
+                  "500"
+                ],
+                "line": 23
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 27,
+            "value": "#And User with account number 123456 and email \"testAccount@gmail.com\" and a balance of $900 is registered in \"Bank Of America\""
+          },
+          {
+            "line": 28,
+            "value": "#And User with account number 11111 and email \"test2@gmail.com\" and a balance of $500 is registered in \"Bank Of America\""
+          },
+          {
+            "line": 29,
+            "value": "#When User with account number 123456 transfers $1200 to account with email \"test2@gmail.com\" in \"Bank Of America\""
+          },
+          {
+            "line": 30,
+            "value": "#Then User with account number 123456 should have $900 in balance"
+          },
+          {
+            "line": 31,
+            "value": "#And User with account number 11111 should have $500 in balance"
+          },
+          {
+            "line": 35,
+            "value": "#Data Tables in cucumber are used to transform column row table into List of maps or list objects that we need to create"
+          },
+          {
+            "line": 36,
+            "value": "#data table is placed under step, so we can populate or validate multiple objects within the same step."
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 34192,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeEachScenarioHook()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Data Tables with POJOs",
+        "description": "",
+        "id": "data-table-demo;data-tables-with-pojos",
+        "after": [
+          {
+            "result": {
+              "duration": 23272,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterEachScenarioHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9149496,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "the following account are created",
+            "match": {
+              "location": "Zelle_steps.the_following_account_are_created(AccountDomain\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "accountNumber",
+                  "email",
+                  "balance",
+                  "bankName"
+                ],
+                "line": 39
+              },
+              {
+                "cells": [
+                  "123456",
+                  "testAccount@gmail.com",
+                  "900",
+                  "Bank Of America"
+                ],
+                "line": 40
+              },
+              {
+                "cells": [
+                  "11111",
+                  "test2@gmail.com",
+                  "500",
+                  "Bank Of America"
+                ],
+                "line": 41
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1515128,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "the following trasfers are executed",
+            "match": {
+              "location": "Zelle_steps.the_following_trasfers_are_executed(Transfer\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "senderAccountNumber",
+                  "amount",
+                  "receiverEmail",
+                  "receiverBankName"
+                ],
+                "line": 43
+              },
+              {
+                "cells": [
+                  "123456",
+                  "1200",
+                  "test2@gmail.com",
+                  "Bank Of America"
+                ],
+                "line": 44
+              },
+              {
+                "cells": [
+                  "11111",
+                  "500",
+                  "ttestAccount@gmail.com",
+                  "Bank Of America"
+                ],
+                "line": 45
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31877,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "the accounts should have the following balance amounts",
+            "match": {
+              "location": "Zelle_steps.the_accounts_should_have_the_following_balance_amounts(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "accountNumber",
+                  "balance"
+                ],
+                "line": 47
+              },
+              {
+                "cells": [
+                  "123456",
+                  "900"
+                ],
+                "line": 48
+              },
+              {
+                "cells": [
+                  "11111",
+                  "500"
+                ],
+                "line": 49
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Data Table Demo",
+    "description": "",
+    "id": "data-table-demo",
+    "keyword": "Feature",
+    "uri": "features/DataTableDemo.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 39836,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeEachScenarioHook()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Demo",
+        "description": "",
+        "id": "scenario-outline-feature;demo;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 24896,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterEachScenarioHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 195342,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "account 1234 is registered",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234",
+                  "offset": 8
+                }
+              ],
+              "location": "ScenarioOutlineSteps.account_is_registered(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 192571,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "account 1234 sends 500 to 0001",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234",
+                  "offset": 8
+                },
+                {
+                  "val": "500",
+                  "offset": 19
+                },
+                {
+                  "val": "0001",
+                  "offset": 26
+                }
+              ],
+              "location": "ScenarioOutlineSteps.account_sends_to(int,int,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 125856,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "account 1234 balance 100 should be",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234",
+                  "offset": 8
+                },
+                {
+                  "val": "100",
+                  "offset": 21
+                }
+              ],
+              "location": "ScenarioOutlineSteps.account_balance_should_be(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              3
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 38161,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeEachScenarioHook()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Demo",
+        "description": "",
+        "id": "scenario-outline-feature;demo;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 21958,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterEachScenarioHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 118184,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "account 1111 is registered",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1111",
+                  "offset": 8
+                }
+              ],
+              "location": "ScenarioOutlineSteps.account_is_registered(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 208930,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "account 1111 sends 1000 to 0005",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1111",
+                  "offset": 8
+                },
+                {
+                  "val": "1000",
+                  "offset": 19
+                },
+                {
+                  "val": "0005",
+                  "offset": 27
+                }
+              ],
+              "location": "ScenarioOutlineSteps.account_sends_to(int,int,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103181,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "account 1111 balance 2000 should be",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1111",
+                  "offset": 8
+                },
+                {
+                  "val": "2000",
+                  "offset": 21
+                }
+              ],
+              "location": "ScenarioOutlineSteps.account_balance_should_be(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              3
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 32783,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeEachScenarioHook()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Demo",
+        "description": "",
+        "id": "scenario-outline-feature;demo;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 23083,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterEachScenarioHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 167197,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "account 8888 is registered",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8888",
+                  "offset": 8
+                }
+              ],
+              "location": "ScenarioOutlineSteps.account_is_registered(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 121735,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "account 8888 sends 200 to 1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8888",
+                  "offset": 8
+                },
+                {
+                  "val": "200",
+                  "offset": 19
+                },
+                {
+                  "val": "1234",
+                  "offset": 26
+                }
+              ],
+              "location": "ScenarioOutlineSteps.account_sends_to(int,int,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "account 8888 balance 5000 should be",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8888",
+                  "offset": 8
+                },
+                {
+                  "val": "5000",
+                  "offset": 21
+                }
+              ],
+              "location": "ScenarioOutlineSteps.account_balance_should_be(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              3
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Scenario Outline feature",
+    "description": "",
+    "id": "scenario-outline-feature",
+    "keyword": "Feature",
+    "uri": "features/ScenaioOutline.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 41611,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeEachScenarioHook()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Transfer money from account A to account B positive",
+        "description": "",
+        "id": "transfer-money-with-zelle;transfer-money-from-account-a-to-account-b-positive",
+        "after": [
+          {
+            "result": {
+              "duration": 23374,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterEachScenarioHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 81338,
               "status": "passed"
             },
             "line": 6,
+            "name": "Bank \"Bank Of America\" exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bank Of America",
+                  "offset": 6
+                }
+              ],
+              "location": "Zelle_steps.bank_exists(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 635294,
+              "status": "passed"
+            },
+            "line": 7,
             "name": "User with account number 123456 and email \"testAccount@gmail.com\" and a balance of $1000 is registered in \"Bank Of America\"",
             "match": {
               "arguments": [
@@ -504,10 +1638,10 @@
           },
           {
             "result": {
-              "duration": 273010,
+              "duration": 194972,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User with account number 11111 and email \"test2@gmail.com\" and a balance of $2000 is registered in \"Bank Of America\"",
             "match": {
               "arguments": [
@@ -534,10 +1668,10 @@
           },
           {
             "result": {
-              "duration": 257854,
+              "duration": 248722,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "User with account number 11111 transfers $100 to account with email \"testAccount@gmail.com\" in \"Bank Of America\"",
             "match": {
               "arguments": [
@@ -564,11 +1698,11 @@
           },
           {
             "result": {
-              "duration": 2384330,
-              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.fail(Assert.java:95)\n\tat step_definitions.Zelle_steps.user_with_account_number_should_have_$_in_balance(Zelle_steps.java:57)\n\tat ✽.Then User with account number 11111 should have $1900 in balance(features/ZelleTransfer.feature:9)\n",
+              "duration": 2464905,
+              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.fail(Assert.java:95)\n\tat step_definitions.Zelle_steps.user_with_account_number_should_have_$_in_balance(Zelle_steps.java:57)\n\tat ✽.Then User with account number 11111 should have $1900 in balance(features/ZelleTransfer.feature:10)\n",
               "status": "failed"
             },
-            "line": 9,
+            "line": 10,
             "name": "User with account number 11111 should have $1900 in balance",
             "match": {
               "arguments": [
@@ -589,7 +1723,7 @@
             "result": {
               "status": "skipped"
             },
-            "line": 10,
+            "line": 11,
             "name": "User with account number 123456 should have $1100 in balance",
             "match": {
               "arguments": [
@@ -609,8 +1743,146 @@
         ],
         "tags": [
           {
-            "line": 3,
+            "line": 4,
             "name": "@Demo"
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 28,
+            "value": "##Fix application code so that this scenario passes without any changes in the test code."
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 27300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeEachScenarioHook()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Transfer money to unregistered account",
+        "description": "",
+        "id": "transfer-money-with-zelle;transfer-money-to-unregistered-account",
+        "after": [
+          {
+            "result": {
+              "duration": 26283,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterEachScenarioHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 147189,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Bank \"Bank Of America\" exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bank Of America",
+                  "offset": 6
+                }
+              ],
+              "location": "Zelle_steps.bank_exists(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 192816,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User with account number 123456 and email \"testAccount@gmail.com\" and a balance of $1000 is registered in \"Bank Of America\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 25
+                },
+                {
+                  "val": "testAccount@gmail.com",
+                  "offset": 43
+                },
+                {
+                  "val": "1000",
+                  "offset": 84
+                },
+                {
+                  "val": "Bank Of America",
+                  "offset": 107
+                }
+              ],
+              "location": "Zelle_steps.user_with_account_number_and_email_and_a_balance_of_$_is_registered_in(int,String,int,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 476970,
+              "error_message": "java.lang.NullPointerException\n\tat functionalities.Account.transferZelle(Account.java:34)\n\tat step_definitions.Zelle_steps.user_with_account_number_transfers_$_to_account_with_email_in(Zelle_steps.java:45)\n\tat ✽.When User with account number 123456 transfers $500 to account with email \"invalid@gmail.com\" in \"Bank Of America\"(features/ZelleTransfer.feature:32)\n",
+              "status": "failed"
+            },
+            "line": 32,
+            "name": "User with account number 123456 transfers $500 to account with email \"invalid@gmail.com\" in \"Bank Of America\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 25
+                },
+                {
+                  "val": "500",
+                  "offset": 43
+                },
+                {
+                  "val": "invalid@gmail.com",
+                  "offset": 70
+                },
+                {
+                  "val": "Bank Of America",
+                  "offset": 93
+                }
+              ],
+              "location": "Zelle_steps.user_with_account_number_transfers_$_to_account_with_email_in(int,int,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "User with account number 123456 should have $1000 in balance",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 25
+                },
+                {
+                  "val": "1000",
+                  "offset": 45
+                }
+              ],
+              "location": "Zelle_steps.user_with_account_number_should_have_$_in_balance(int,int)"
+            },
+            "keyword": "Then "
           }
         ]
       }
@@ -619,7 +1891,13 @@
     "description": "",
     "id": "transfer-money-with-zelle",
     "keyword": "Feature",
-    "uri": "features/ZelleTransfer.feature"
+    "uri": "features/ZelleTransfer.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
   },
   {
     "line": 2,
@@ -634,7 +1912,7 @@
         "before": [
           {
             "result": {
-              "duration": 48714,
+              "duration": 48167,
               "status": "passed"
             },
             "match": {
@@ -649,7 +1927,7 @@
         "after": [
           {
             "result": {
-              "duration": 34952,
+              "duration": 40896,
               "status": "passed"
             },
             "match": {
@@ -662,7 +1940,7 @@
         "steps": [
           {
             "result": {
-              "duration": 101738,
+              "duration": 159845,
               "status": "passed"
             },
             "line": 8,
@@ -674,7 +1952,7 @@
           },
           {
             "result": {
-              "duration": 285464,
+              "duration": 44280,
               "status": "passed"
             },
             "line": 9,
@@ -686,7 +1964,7 @@
           },
           {
             "result": {
-              "duration": 85985,
+              "duration": 73050,
               "status": "passed"
             },
             "line": 10,
@@ -712,7 +1990,7 @@
         "before": [
           {
             "result": {
-              "duration": 50554,
+              "duration": 41208,
               "status": "passed"
             },
             "match": {
@@ -727,7 +2005,7 @@
         "after": [
           {
             "result": {
-              "duration": 33675,
+              "duration": 34305,
               "status": "passed"
             },
             "match": {
@@ -740,7 +2018,7 @@
         "steps": [
           {
             "result": {
-              "duration": 55775,
+              "duration": 71932,
               "status": "passed"
             },
             "line": 17,
@@ -752,7 +2030,7 @@
           },
           {
             "result": {
-              "duration": 23085,
+              "duration": 18828,
               "status": "passed"
             },
             "line": 18,
@@ -764,7 +2042,7 @@
           },
           {
             "result": {
-              "duration": 23932,
+              "duration": 19012,
               "status": "passed"
             },
             "line": 19,
@@ -790,6 +2068,10 @@
       {
         "line": 1,
         "name": "@Demo"
+      },
+      {
+        "line": 1,
+        "name": "@Regression"
       }
     ]
   }

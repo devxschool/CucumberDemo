@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: runners.RegressionRunner
+-------------------------------------------------------------------------------
+Tests run: 76, Failures: 2, Errors: 2, Skipped: 2, Time elapsed: 1.321 s <<< FAILURE! - in runners.RegressionRunner
+Then User with account number 11111 should have $1900 in balance(Scenario: Transfer money from account A to account B positive)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError
+
+Scenario: Transfer money from account A to account B positive  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError
+
+When User with account number 123456 transfers $500 to account with email "invalid@gmail.com" in "Bank Of America"(Scenario: Transfer money to unregistered account)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Scenario: Transfer money to unregistered account  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+

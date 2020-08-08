@@ -2,9 +2,12 @@ package runners;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
+import step_definitions.BackgroundSteps;
 
 //We are using RunWith annotation to annotate(let the jvm know that)
 // this class will be a Junit Test Runner class, but Junit will be integrated with cucumber
@@ -21,10 +24,11 @@ import org.junit.runner.RunWith;
         //html -is a face of the webpage. it's used for creating webpages. static webpage.
 )
 public class SmokeTestRunner {
+    private static final Logger LOG = LogManager.getLogger(SmokeTestRunner.class);
 
     @BeforeClass
     public static void beforeClassHook() {
-        System.out.println("Go to website");
+        LOG.warn("Go to website");
         System.out.println("Login to the app");
     }
 
