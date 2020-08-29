@@ -1,0 +1,3 @@
+21:38:05.150 [main] INFO  log4jpractice.Lo4jDemo - In info level we put generic info about the application process which is not sensitive. Ex: Application conencting to db App is queirying all employees. App is starting up, app is shuting down.
+21:38:05.153 [main] WARN  log4jpractice.Lo4jDemo - In warn level you put messages that give a warning about a possible issue. IN password is not super secure
+21:38:05.153 [main] ERROR log4jpractice.Lo4jDemo - All Error should go to Error level. Ex: User tried to login with invalid password. User doesnt have enough funds.  Student creds expired. Firm is not active. Business or application error. DB connection error.

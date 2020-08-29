@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 270973,
+  "duration": 106330,
   "status": "passed"
 });
 formatter.background({
@@ -43,7 +43,7 @@ formatter.match({
   "location": "BackgroundSteps.user_is_on(String)"
 });
 formatter.result({
-  "duration": 672001905,
+  "duration": 396595808,
   "status": "passed"
 });
 formatter.match({
@@ -60,7 +60,7 @@ formatter.match({
   "location": "BackgroundSteps.user_is_logged_in_as(String,String)"
 });
 formatter.result({
-  "duration": 320879,
+  "duration": 193423,
   "status": "passed"
 });
 formatter.scenario({
@@ -85,22 +85,22 @@ formatter.match({
   "location": "BackgroundSteps.user_click_on_transaction()"
 });
 formatter.result({
-  "duration": 65381,
+  "duration": 52475,
   "status": "passed"
 });
 formatter.match({
   "location": "BackgroundSteps.user_should_see_all_transaction()"
 });
 formatter.result({
-  "duration": 47101,
+  "duration": 40068,
   "status": "passed"
 });
 formatter.after({
-  "duration": 56176,
+  "duration": 46730,
   "status": "passed"
 });
 formatter.before({
-  "duration": 77639,
+  "duration": 40163,
   "status": "passed"
 });
 formatter.background({
@@ -130,7 +130,7 @@ formatter.match({
   "location": "BackgroundSteps.user_is_on(String)"
 });
 formatter.result({
-  "duration": 317846,
+  "duration": 275062,
   "status": "passed"
 });
 formatter.match({
@@ -147,7 +147,7 @@ formatter.match({
   "location": "BackgroundSteps.user_is_logged_in_as(String,String)"
 });
 formatter.result({
-  "duration": 285860,
+  "duration": 210583,
   "status": "passed"
 });
 formatter.scenario({
@@ -183,7 +183,7 @@ formatter.match({
   "location": "BackgroundSteps.user_balance_is(int)"
 });
 formatter.result({
-  "duration": 745837,
+  "duration": 508107,
   "status": "passed"
 });
 formatter.match({
@@ -196,7 +196,7 @@ formatter.match({
   "location": "BackgroundSteps.user_deposits(int)"
 });
 formatter.result({
-  "duration": 144879,
+  "duration": 103683,
   "status": "passed"
 });
 formatter.match({
@@ -209,15 +209,15 @@ formatter.match({
   "location": "BackgroundSteps.user_balance_should_be(int)"
 });
 formatter.result({
-  "duration": 153105,
+  "duration": 94439,
   "status": "passed"
 });
 formatter.after({
-  "duration": 44449,
+  "duration": 31796,
   "status": "passed"
 });
 formatter.before({
-  "duration": 43366,
+  "duration": 72358,
   "status": "passed"
 });
 formatter.background({
@@ -247,7 +247,7 @@ formatter.match({
   "location": "BackgroundSteps.user_is_on(String)"
 });
 formatter.result({
-  "duration": 360316,
+  "duration": 250482,
   "status": "passed"
 });
 formatter.match({
@@ -264,7 +264,7 @@ formatter.match({
   "location": "BackgroundSteps.user_is_logged_in_as(String,String)"
 });
 formatter.result({
-  "duration": 349919,
+  "duration": 243462,
   "status": "passed"
 });
 formatter.scenario({
@@ -300,7 +300,7 @@ formatter.match({
   "location": "BackgroundSteps.user_balance_is(int)"
 });
 formatter.result({
-  "duration": 111459,
+  "duration": 108174,
   "status": "passed"
 });
 formatter.match({
@@ -313,7 +313,7 @@ formatter.match({
   "location": "BackgroundSteps.user_withdraws(int)"
 });
 formatter.result({
-  "duration": 142836,
+  "duration": 78229,
   "status": "passed"
 });
 formatter.match({
@@ -326,11 +326,11 @@ formatter.match({
   "location": "BackgroundSteps.user_balance_should_be(int)"
 });
 formatter.result({
-  "duration": 118778,
+  "duration": 126156,
   "status": "passed"
 });
 formatter.after({
-  "duration": 44986,
+  "duration": 24136,
   "status": "passed"
 });
 formatter.uri("features/CucumberDemo2.feature");
@@ -352,7 +352,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 57005,
+  "duration": 34584,
   "status": "passed"
 });
 formatter.scenario({
@@ -398,7 +398,7 @@ formatter.match({
   "location": "CucumberDemo2Steps.user_with_account_number_is_registered(int)"
 });
 formatter.result({
-  "duration": 194113,
+  "duration": 153979,
   "status": "passed"
 });
 formatter.match({
@@ -415,7 +415,7 @@ formatter.match({
   "location": "CucumberDemo2Steps.user_with_account_number_deposited_$(int,int)"
 });
 formatter.result({
-  "duration": 167969,
+  "duration": 173961,
   "status": "passed"
 });
 formatter.match({
@@ -432,7 +432,7 @@ formatter.match({
   "location": "CucumberDemo2Steps.user_with_account_number_transfers_$(int,int)"
 });
 formatter.result({
-  "duration": 199151,
+  "duration": 89598,
   "status": "passed"
 });
 formatter.match({
@@ -449,7 +449,7 @@ formatter.match({
   "location": "CucumberDemo2Steps.user_with_account_number_transfers_$(int,int)"
 });
 formatter.result({
-  "duration": 158561,
+  "duration": 88961,
   "status": "passed"
 });
 formatter.match({
@@ -466,15 +466,15 @@ formatter.match({
   "location": "Zelle_steps.user_with_account_number_should_have_$_in_balance(int,int)"
 });
 formatter.result({
-  "duration": 335753,
+  "duration": 147043,
   "status": "passed"
 });
 formatter.after({
-  "duration": 48271,
+  "duration": 36265,
   "status": "passed"
 });
 formatter.before({
-  "duration": 48236,
+  "duration": 42493,
   "status": "passed"
 });
 formatter.scenario({
@@ -520,7 +520,7 @@ formatter.match({
   "location": "CucumberDemo2Steps.user_with_account_number_is_registered(int)"
 });
 formatter.result({
-  "duration": 150551,
+  "duration": 85669,
   "status": "passed"
 });
 formatter.match({
@@ -537,7 +537,7 @@ formatter.match({
   "location": "CucumberDemo2Steps.user_with_account_number_deposited_$(int,int)"
 });
 formatter.result({
-  "duration": 253489,
+  "duration": 156820,
   "status": "passed"
 });
 formatter.match({
@@ -554,7 +554,7 @@ formatter.match({
   "location": "CucumberDemo2Steps.user_with_account_number_transfers_$(int,int)"
 });
 formatter.result({
-  "duration": 252914,
+  "duration": 136360,
   "status": "passed"
 });
 formatter.match({
@@ -571,7 +571,7 @@ formatter.match({
   "location": "Zelle_steps.user_with_account_number_should_have_$_in_balance(int,int)"
 });
 formatter.result({
-  "duration": 221854,
+  "duration": 111928,
   "status": "passed"
 });
 formatter.match({
@@ -584,15 +584,15 @@ formatter.match({
   "location": "CucumberDemo2Steps.user_should_see_message(String)"
 });
 formatter.result({
-  "duration": 119601,
+  "duration": 54597,
   "status": "passed"
 });
 formatter.after({
-  "duration": 33691,
+  "duration": 24596,
   "status": "passed"
 });
 formatter.before({
-  "duration": 59914,
+  "duration": 38369,
   "status": "passed"
 });
 formatter.scenario({
@@ -638,7 +638,7 @@ formatter.match({
   "location": "CucumberDemo2Steps.user_with_account_number_is_registered(int)"
 });
 formatter.result({
-  "duration": 153679,
+  "duration": 102032,
   "status": "passed"
 });
 formatter.match({
@@ -655,7 +655,7 @@ formatter.match({
   "location": "CucumberDemo2Steps.user_with_account_number_deposited_$(int,int)"
 });
 formatter.result({
-  "duration": 127414,
+  "duration": 96118,
   "status": "passed"
 });
 formatter.match({
@@ -672,7 +672,7 @@ formatter.match({
   "location": "CucumberDemo2Steps.user_with_account_number_transfers_$(int,int)"
 });
 formatter.result({
-  "duration": 155654,
+  "duration": 131834,
   "status": "passed"
 });
 formatter.match({
@@ -689,7 +689,7 @@ formatter.match({
   "location": "Zelle_steps.user_with_account_number_should_have_$_in_balance(int,int)"
 });
 formatter.result({
-  "duration": 146337,
+  "duration": 88975,
   "status": "passed"
 });
 formatter.match({
@@ -702,11 +702,11 @@ formatter.match({
   "location": "CucumberDemo2Steps.user_should_see_message(String)"
 });
 formatter.result({
-  "duration": 85634,
+  "duration": 47584,
   "status": "passed"
 });
 formatter.after({
-  "duration": 45600,
+  "duration": 31636,
   "status": "passed"
 });
 formatter.uri("features/DataTableDemo.feature");
@@ -724,7 +724,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 48328,
+  "duration": 25597,
   "status": "passed"
 });
 formatter.scenario({
@@ -859,36 +859,36 @@ formatter.match({
   "location": "Zelle_steps.bank_exists(String)"
 });
 formatter.result({
-  "duration": 1088602,
+  "duration": 584587,
   "status": "passed"
 });
 formatter.match({
   "location": "Zelle_steps.the_following_user_is_created(DataTable)"
 });
 formatter.result({
-  "duration": 1693661,
+  "duration": 2226951,
   "status": "passed"
 });
 formatter.match({
   "location": "Zelle_steps.the_following_transfers_are_made(DataTable)"
 });
 formatter.result({
-  "duration": 217371,
+  "duration": 119233,
   "status": "passed"
 });
 formatter.match({
   "location": "Zelle_steps.the_accounts_should_have_the_following_balances(String,String\u003e\u003e)"
 });
 formatter.result({
-  "duration": 189967,
+  "duration": 226315,
   "status": "passed"
 });
 formatter.after({
-  "duration": 26876,
+  "duration": 29646,
   "status": "passed"
 });
 formatter.before({
-  "duration": 34192,
+  "duration": 49084,
   "status": "passed"
 });
 formatter.scenario({
@@ -1029,25 +1029,25 @@ formatter.match({
   "location": "Zelle_steps.the_following_account_are_created(AccountDomain\u003e)"
 });
 formatter.result({
-  "duration": 9149496,
+  "duration": 8327933,
   "status": "passed"
 });
 formatter.match({
   "location": "Zelle_steps.the_following_trasfers_are_executed(Transfer\u003e)"
 });
 formatter.result({
-  "duration": 1515128,
+  "duration": 1032340,
   "status": "passed"
 });
 formatter.match({
   "location": "Zelle_steps.the_accounts_should_have_the_following_balance_amounts(DataTable)"
 });
 formatter.result({
-  "duration": 31877,
+  "duration": 37027,
   "status": "passed"
 });
 formatter.after({
-  "duration": 23272,
+  "duration": 25017,
   "status": "passed"
 });
 formatter.uri("features/ScenaioOutline.feature");
@@ -1159,7 +1159,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 39836,
+  "duration": 58930,
   "status": "passed"
 });
 formatter.scenario({
@@ -1213,7 +1213,7 @@ formatter.match({
   "location": "ScenarioOutlineSteps.account_is_registered(int)"
 });
 formatter.result({
-  "duration": 195342,
+  "duration": 144837,
   "status": "passed"
 });
 formatter.match({
@@ -1234,7 +1234,7 @@ formatter.match({
   "location": "ScenarioOutlineSteps.account_sends_to(int,int,String)"
 });
 formatter.result({
-  "duration": 192571,
+  "duration": 116552,
   "status": "passed"
 });
 formatter.match({
@@ -1251,15 +1251,15 @@ formatter.match({
   "location": "ScenarioOutlineSteps.account_balance_should_be(int,int)"
 });
 formatter.result({
-  "duration": 125856,
+  "duration": 131233,
   "status": "passed"
 });
 formatter.after({
-  "duration": 24896,
+  "duration": 24458,
   "status": "passed"
 });
 formatter.before({
-  "duration": 38161,
+  "duration": 30137,
   "status": "passed"
 });
 formatter.scenario({
@@ -1313,7 +1313,7 @@ formatter.match({
   "location": "ScenarioOutlineSteps.account_is_registered(int)"
 });
 formatter.result({
-  "duration": 118184,
+  "duration": 127648,
   "status": "passed"
 });
 formatter.match({
@@ -1334,7 +1334,7 @@ formatter.match({
   "location": "ScenarioOutlineSteps.account_sends_to(int,int,String)"
 });
 formatter.result({
-  "duration": 208930,
+  "duration": 201326,
   "status": "passed"
 });
 formatter.match({
@@ -1351,15 +1351,15 @@ formatter.match({
   "location": "ScenarioOutlineSteps.account_balance_should_be(int,int)"
 });
 formatter.result({
-  "duration": 103181,
+  "duration": 120166,
   "status": "passed"
 });
 formatter.after({
-  "duration": 21958,
+  "duration": 26531,
   "status": "passed"
 });
 formatter.before({
-  "duration": 32783,
+  "duration": 35750,
   "status": "passed"
 });
 formatter.scenario({
@@ -1413,7 +1413,7 @@ formatter.match({
   "location": "ScenarioOutlineSteps.account_is_registered(int)"
 });
 formatter.result({
-  "duration": 167197,
+  "duration": 107047,
   "status": "passed"
 });
 formatter.match({
@@ -1434,7 +1434,7 @@ formatter.match({
   "location": "ScenarioOutlineSteps.account_sends_to(int,int,String)"
 });
 formatter.result({
-  "duration": 121735,
+  "duration": 118769,
   "status": "passed"
 });
 formatter.match({
@@ -1451,11 +1451,11 @@ formatter.match({
   "location": "ScenarioOutlineSteps.account_balance_should_be(int,int)"
 });
 formatter.result({
-  "duration": 109900,
+  "duration": 89644,
   "status": "passed"
 });
 formatter.after({
-  "duration": 23083,
+  "duration": 14669,
   "status": "passed"
 });
 formatter.uri("features/ZelleTransfer.feature");
@@ -1473,7 +1473,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 41611,
+  "duration": 23601,
   "status": "passed"
 });
 formatter.scenario({
@@ -1530,7 +1530,7 @@ formatter.match({
   "location": "Zelle_steps.bank_exists(String)"
 });
 formatter.result({
-  "duration": 81338,
+  "duration": 61473,
   "status": "passed"
 });
 formatter.match({
@@ -1555,7 +1555,7 @@ formatter.match({
   "location": "Zelle_steps.user_with_account_number_and_email_and_a_balance_of_$_is_registered_in(int,String,int,String)"
 });
 formatter.result({
-  "duration": 635294,
+  "duration": 821684,
   "status": "passed"
 });
 formatter.match({
@@ -1580,7 +1580,7 @@ formatter.match({
   "location": "Zelle_steps.user_with_account_number_and_email_and_a_balance_of_$_is_registered_in(int,String,int,String)"
 });
 formatter.result({
-  "duration": 194972,
+  "duration": 234631,
   "status": "passed"
 });
 formatter.match({
@@ -1605,7 +1605,7 @@ formatter.match({
   "location": "Zelle_steps.user_with_account_number_transfers_$_to_account_with_email_in(int,int,String,String)"
 });
 formatter.result({
-  "duration": 248722,
+  "duration": 271671,
   "status": "passed"
 });
 formatter.match({
@@ -1622,7 +1622,7 @@ formatter.match({
   "location": "Zelle_steps.user_with_account_number_should_have_$_in_balance(int,int)"
 });
 formatter.result({
-  "duration": 2464905,
+  "duration": 1906379,
   "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.fail(Assert.java:95)\n\tat step_definitions.Zelle_steps.user_with_account_number_should_have_$_in_balance(Zelle_steps.java:57)\n\tat ✽.Then User with account number 11111 should have $1900 in balance(features/ZelleTransfer.feature:10)\n",
   "status": "failed"
 });
@@ -1643,11 +1643,11 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 23374,
+  "duration": 48878,
   "status": "passed"
 });
 formatter.before({
-  "duration": 27300,
+  "duration": 65340,
   "status": "passed"
 });
 formatter.scenario({
@@ -1694,7 +1694,7 @@ formatter.match({
   "location": "Zelle_steps.bank_exists(String)"
 });
 formatter.result({
-  "duration": 147189,
+  "duration": 99525,
   "status": "passed"
 });
 formatter.match({
@@ -1719,7 +1719,7 @@ formatter.match({
   "location": "Zelle_steps.user_with_account_number_and_email_and_a_balance_of_$_is_registered_in(int,String,int,String)"
 });
 formatter.result({
-  "duration": 192816,
+  "duration": 196041,
   "status": "passed"
 });
 formatter.match({
@@ -1744,7 +1744,7 @@ formatter.match({
   "location": "Zelle_steps.user_with_account_number_transfers_$_to_account_with_email_in(int,int,String,String)"
 });
 formatter.result({
-  "duration": 476970,
+  "duration": 493392,
   "error_message": "java.lang.NullPointerException\n\tat functionalities.Account.transferZelle(Account.java:34)\n\tat step_definitions.Zelle_steps.user_with_account_number_transfers_$_to_account_with_email_in(Zelle_steps.java:45)\n\tat ✽.When User with account number 123456 transfers $500 to account with email \"invalid@gmail.com\" in \"Bank Of America\"(features/ZelleTransfer.feature:32)\n",
   "status": "failed"
 });
@@ -1765,7 +1765,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 26283,
+  "duration": 30570,
   "status": "passed"
 });
 formatter.uri("features/cucumberdemo.feature");
@@ -1791,7 +1791,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 48167,
+  "duration": 78062,
   "status": "passed"
 });
 formatter.scenario({
@@ -1827,29 +1827,29 @@ formatter.match({
   "location": "Cucumberdemo_steps.user_is_moving_cursor_to_search_box()"
 });
 formatter.result({
-  "duration": 159845,
+  "duration": 96506,
   "status": "passed"
 });
 formatter.match({
   "location": "Cucumberdemo_steps.user_enters_spoon_in_search_box()"
 });
 formatter.result({
-  "duration": 44280,
+  "duration": 40810,
   "status": "passed"
 });
 formatter.match({
   "location": "Cucumberdemo_steps.user_should_see_only_spoons_in_the_result()"
 });
 formatter.result({
-  "duration": 73050,
+  "duration": 50666,
   "status": "passed"
 });
 formatter.after({
-  "duration": 40896,
+  "duration": 28931,
   "status": "passed"
 });
 formatter.before({
-  "duration": 41208,
+  "duration": 43991,
   "status": "passed"
 });
 formatter.scenario({
@@ -1889,25 +1889,25 @@ formatter.match({
   "location": "Cucumberdemo_steps.cucumber_user_set_dry_run_to_true()"
 });
 formatter.result({
-  "duration": 71932,
+  "duration": 46493,
   "status": "passed"
 });
 formatter.match({
   "location": "Cucumberdemo_steps.cucumber_user_runs_the_cucumber_runner_class()"
 });
 formatter.result({
-  "duration": 18828,
+  "duration": 18796,
   "status": "passed"
 });
 formatter.match({
   "location": "Cucumberdemo_steps.cucumber_user_should_see_step_implemention_snippets_for_missing_step_defs_in_console()"
 });
 formatter.result({
-  "duration": 19012,
+  "duration": 22277,
   "status": "passed"
 });
 formatter.after({
-  "duration": 34305,
+  "duration": 21791,
   "status": "passed"
 });
 });

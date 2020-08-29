@@ -1,21 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- This xml file is needed by log4j2 library -->
+<!-- log4j2 library looks for this file when you start the program -->
+<!-- this file has all custom configuration of logging for this application -->
 <Configuration status="WARN">
+    <!-- here we can declare appenders(message writer types) ex: print out in console or
+    print out in the file -->
     <Appenders>
+        <!-- if you want your logs to go to console -->
         <Console name="Console" target="SYSTEM_OUT">
+            <!-- I want the logs to be printed out in this format -->
+            <!-- start with date and time, thread. Log level, className, - , message. new line -->
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
         </Console>
 
-        <File name="DevXSchool" fileName="logs/app.log">
+        <!-- another appender of File type. which will write everything to log file. -->
+        <!-- name of this appender can be anything -->
+        <!-- fileName which will be created if doesnt exist with the folder-->
+        <!-- here you have an option to just keep writing to the same file if you remove append=false. or set it to true -->
+        <!-- append=false means everytime we run the program create a new file -->
+        <!-- <File name="DevXSchool" fileName="logs/app.log" append="true"> for same log every run -->
+        <File name="DevXSchool" fileName="logs/app_${date:yyyy-MM-dd-HH_mm_ss}.log" append="false">
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
         </File>
     </Appenders>
+
+    <!-- define log level here -->
     <Loggers>
-        <Root level="DEBUG">
+        <!-- level of the root will be applied to all classes in the application -->
+        <Root level="INFO">
             <AppenderRef ref="DevXSchool"/>
+            <AppenderRef ref="Console"/>
         </Root>
 
+        <!-- we can give custom log levels to certain classes under certain packages by logger tag -->
         <logger name="org.example.runners" level="WARN">
-                <AppenderRef ref="DevXSchool"/>
+                <AppenderRef ref="Console"/>
         </logger>
     </Loggers>
 </Configuration>

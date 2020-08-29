@@ -1,0 +1,6 @@
+17:24:09.116 [main] INFO  step_definitions.BackgroundSteps - user goes to qa-chase.com
+17:24:09.120 [main] DEBUG step_definitions.BackgroundSteps - test@gmail.com is logged in with  test1Pass password
+17:24:09.126 [main] INFO  step_definitions.BackgroundSteps - user goes to qa-chase.com
+17:24:09.127 [main] DEBUG step_definitions.BackgroundSteps - test@gmail.com is logged in with  test1Pass password
+17:24:09.134 [main] INFO  step_definitions.BackgroundSteps - user goes to qa-chase.com
+17:24:09.135 [main] DEBUG step_definitions.BackgroundSteps - test@gmail.com is logged in with  test1Pass password

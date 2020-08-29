@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runners.RegressionRunner" time="1.321" tests="76" errors="2" skipped="2" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runners.RegressionRunner" time="0.59" tests="76" errors="2" skipped="2" failures="2">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/askarmusakunov/Documents/DevCourse/CucumberDemo/target/surefire/surefirebooter6857956389037403598.jar /Users/askarmusakunov/Documents/DevCourse/CucumberDemo/target/surefire 2020-08-07T21-27-15_948-jvmRun1 surefire4587931381685533831tmp surefire_02825261371296766972tmp"/>
+    <property name="sun.java.command" value="/Users/askarmusakunov/Documents/DevCourse/CucumberDemo/target/surefire/surefirebooter5042675725259946019.jar /Users/askarmusakunov/Documents/DevCourse/CucumberDemo/target/surefire 2020-08-28T17-18-36_480-jvmRun1 surefire820439576463466747tmp surefire_01072650864699686070tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/askarmusakunov/Documents/DevCourse/CucumberDemo/target/test-classes:/Users/askarmusakunov/Documents/DevCourse/CucumberDemo/target/classes:/Users/askarmusakunov/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/askarmusakunov/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/askarmusakunov/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/askarmusakunov/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:/Users/askarmusakunov/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/askarmusakunov/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/askarmusakunov/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/askarmusakunov/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/askarmusakunov/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar:/Users/askarmusakunov/.m2/repository/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="idea.version2020.1.2" value="true"/>
-    <property name="surefire.real.class.path" value="/Users/askarmusakunov/Documents/DevCourse/CucumberDemo/target/surefire/surefirebooter6857956389037403598.jar"/>
+    <property name="surefire.real.class.path" value="/Users/askarmusakunov/Documents/DevCourse/CucumberDemo/target/surefire/surefirebooter5042675725259946019.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -71,26 +71,26 @@
   <testcase name="And user is logged in as &quot;test@gmail.com&quot; &quot;test1Pass&quot;" classname="Scenario: Demo2" time="0"/>
   <testcase name="And user balance is 1000" classname="Scenario: Demo2" time="0"/>
   <testcase name="When user deposits 200" classname="Scenario: Demo2" time="0"/>
-  <testcase name="Then user balance should be 1200" classname="Scenario: Demo2" time="0.001"/>
+  <testcase name="Then user balance should be 1200" classname="Scenario: Demo2" time="0"/>
   <testcase name="Scenario: Demo2" classname="Scenario: Demo2" time="0.001"/>
   <testcase name="Given user is on &quot;qa-chase.com&quot;" classname="Scenario: Demo3" time="0"/>
   <testcase name="And user is logged in as &quot;test@gmail.com&quot; &quot;test1Pass&quot;" classname="Scenario: Demo3" time="0"/>
   <testcase name="And user balance is 1000" classname="Scenario: Demo3" time="0"/>
   <testcase name="When user withdraws 200" classname="Scenario: Demo3" time="0"/>
   <testcase name="Then user balance should be 800" classname="Scenario: Demo3" time="0"/>
-  <testcase name="Scenario: Demo3" classname="Scenario: Demo3" time="0.001"/>
+  <testcase name="Scenario: Demo3" classname="Scenario: Demo3" time="0"/>
   <testcase name="Given User with account number 123456 is registered" classname="Scenario: Money Transfer with enough balance" time="0"/>
   <testcase name="And User with account number 123456 deposited $500" classname="Scenario: Money Transfer with enough balance" time="0"/>
   <testcase name="When User with account number 123456 transfers $300" classname="Scenario: Money Transfer with enough balance" time="0"/>
-  <testcase name="And User with account number 123456 transfers $200" classname="Scenario: Money Transfer with enough balance" time="0.001"/>
+  <testcase name="And User with account number 123456 transfers $200" classname="Scenario: Money Transfer with enough balance" time="0"/>
   <testcase name="Then User with account number 123456 should have $0 in balance" classname="Scenario: Money Transfer with enough balance" time="0"/>
-  <testcase name="Scenario: Money Transfer with enough balance" classname="Scenario: Money Transfer with enough balance" time="0.001"/>
+  <testcase name="Scenario: Money Transfer with enough balance" classname="Scenario: Money Transfer with enough balance" time="0"/>
   <testcase name="Given User with account number 987654 is registered" classname="Scenario: Money Transfer with not enough balance" time="0"/>
   <testcase name="And User with account number 987654 deposited $1000" classname="Scenario: Money Transfer with not enough balance" time="0"/>
   <testcase name="When User with account number 987654 transfers $1100" classname="Scenario: Money Transfer with not enough balance" time="0"/>
   <testcase name="Then User with account number 987654 should have $1000 in balance" classname="Scenario: Money Transfer with not enough balance" time="0"/>
   <testcase name="And User should see &quot;Insufficient Funds&quot; message" classname="Scenario: Money Transfer with not enough balance" time="0"/>
-  <testcase name="Scenario: Money Transfer with not enough balance" classname="Scenario: Money Transfer with not enough balance" time="0.001"/>
+  <testcase name="Scenario: Money Transfer with not enough balance" classname="Scenario: Money Transfer with not enough balance" time="0"/>
   <testcase name="Given User with account number 1234 is registered" classname="Scenario: Money Transfer with daily limit exceeded" time="0"/>
   <testcase name="And User with account number 1234 deposited $2000" classname="Scenario: Money Transfer with daily limit exceeded" time="0"/>
   <testcase name="When User with account number 1234 transfers $1003" classname="Scenario: Money Transfer with daily limit exceeded" time="0"/>
@@ -101,19 +101,19 @@
   <testcase name="And the following user is created" classname="Scenario: Data Table Demo 1" time="0"/>
   <testcase name="When the following transfers are made" classname="Scenario: Data Table Demo 1" time="0"/>
   <testcase name="Then the accounts should have the following balances" classname="Scenario: Data Table Demo 1" time="0"/>
-  <testcase name="Scenario: Data Table Demo 1" classname="Scenario: Data Table Demo 1" time="0.001"/>
+  <testcase name="Scenario: Data Table Demo 1" classname="Scenario: Data Table Demo 1" time="0"/>
   <testcase name="Given the following account are created" classname="Scenario: Data Tables with POJOs" time="0"/>
   <testcase name="When the following trasfers are executed" classname="Scenario: Data Tables with POJOs" time="0"/>
   <testcase name="Then the accounts should have the following balance amounts" classname="Scenario: Data Tables with POJOs" time="0"/>
-  <testcase name="Scenario: Data Tables with POJOs" classname="Scenario: Data Tables with POJOs" time="0"/>
+  <testcase name="Scenario: Data Tables with POJOs" classname="Scenario: Data Tables with POJOs" time="0.001"/>
   <testcase name="Given account 1234 is registered" classname="| 1234 | 500 | 0001 | 100 |" time="0"/>
   <testcase name="When account 1234 sends 500 to 0001" classname="| 1234 | 500 | 0001 | 100 |" time="0"/>
   <testcase name="Then account 1234 balance 100 should be" classname="| 1234 | 500 | 0001 | 100 |" time="0"/>
-  <testcase name="| 1234 | 500 | 0001 | 100 |" classname="| 1234 | 500 | 0001 | 100 |" time="0.001"/>
+  <testcase name="| 1234 | 500 | 0001 | 100 |" classname="| 1234 | 500 | 0001 | 100 |" time="0"/>
   <testcase name="Given account 1111 is registered" classname="| 1111 | 1000 | 0005 | 2000 |" time="0"/>
   <testcase name="When account 1111 sends 1000 to 0005" classname="| 1111 | 1000 | 0005 | 2000 |" time="0"/>
   <testcase name="Then account 1111 balance 2000 should be" classname="| 1111 | 1000 | 0005 | 2000 |" time="0"/>
-  <testcase name="| 1111 | 1000 | 0005 | 2000 |" classname="| 1111 | 1000 | 0005 | 2000 |" time="0"/>
+  <testcase name="| 1111 | 1000 | 0005 | 2000 |" classname="| 1111 | 1000 | 0005 | 2000 |" time="0.001"/>
   <testcase name="Given account 8888 is registered" classname="| 8888 | 200 | 1234 | 5000 |" time="0"/>
   <testcase name="When account 8888 sends 200 to 1234" classname="| 8888 | 200 | 1234 | 5000 |" time="0"/>
   <testcase name="Then account 8888 balance 5000 should be" classname="| 8888 | 200 | 1234 | 5000 |" time="0"/>
@@ -122,13 +122,13 @@
   <testcase name="And User with account number 123456 and email &quot;testAccount@gmail.com&quot; and a balance of $1000 is registered in &quot;Bank Of America&quot;" classname="Scenario: Transfer money from account A to account B positive" time="0"/>
   <testcase name="And User with account number 11111 and email &quot;test2@gmail.com&quot; and a balance of $2000 is registered in &quot;Bank Of America&quot;" classname="Scenario: Transfer money from account A to account B positive" time="0"/>
   <testcase name="When User with account number 11111 transfers $100 to account with email &quot;testAccount@gmail.com&quot; in &quot;Bank Of America&quot;" classname="Scenario: Transfer money from account A to account B positive" time="0"/>
-  <testcase name="Then User with account number 11111 should have $1900 in balance" classname="Scenario: Transfer money from account A to account B positive" time="0.007">
+  <testcase name="Then User with account number 11111 should have $1900 in balance" classname="Scenario: Transfer money from account A to account B positive" time="0.003">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 </failure>
     <system-out><![CDATA[11111 balance: $ 1900
 ]]></system-out>
   </testcase>
-  <testcase name="Scenario: Transfer money from account A to account B positive" classname="Scenario: Transfer money from account A to account B positive" time="0.007">
+  <testcase name="Scenario: Transfer money from account A to account B positive" classname="Scenario: Transfer money from account A to account B positive" time="0.003">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 </failure>
   </testcase>
@@ -151,7 +151,7 @@
     <skipped/>
   </testcase>
   <testcase name="And User is moving cursor to search box" classname="Scenario: we give a scenario name" time="0"/>
-  <testcase name="When User enters spoon in search box" classname="Scenario: we give a scenario name" time="0.001"/>
+  <testcase name="When User enters spoon in search box" classname="Scenario: we give a scenario name" time="0"/>
   <testcase name="Then User should see only spoons in the result" classname="Scenario: we give a scenario name" time="0"/>
   <testcase name="Scenario: we give a scenario name" classname="Scenario: we give a scenario name" time="0"/>
   <testcase name="Given Cucumber user set dry run to true" classname="Scenario: Dry Run Test" time="0"/>
