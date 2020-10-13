@@ -24,7 +24,7 @@
         <dependency>
             <groupId>junit</groupId> <!-- company name -->
             <artifactId>junit</artifactId><!-- product name(library name) -->
-            <version>4.12</version>
+            <version>4.13.1</version>
             <scope>test</scope>
         </dependency>
 
